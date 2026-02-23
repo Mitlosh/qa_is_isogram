@@ -25,6 +25,9 @@ describe("isIsogram", () => {
     expect(isIsogram("Adam")).toBe(false);
     expect(isIsogram("Moose")).toBe(false);
     expect(isIsogram("Alphabet")).toBe(false);
+  });
+
+  test("should return false for 'Oops'", () => {
     expect(isIsogram("Oops")).toBe(false);
   });
 
